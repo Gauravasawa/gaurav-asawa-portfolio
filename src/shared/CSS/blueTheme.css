@@ -1,0 +1,105 @@
+:root {
+	--main-background-color: #feffe0;
+	--page-heading-color: #181818;
+	--white-color: #ffffff;
+	--blue-color: #1bdcff;
+	--grey-color: #e2e2e2;
+	--green-color: rgba(69, 240, 91, 0.933);
+	--siderbar-darkblue-color: #ffeb7c;
+	--sidebar-darkblue-selected-color: #ffe159;
+	--sidebar-font-color: #f51414;
+	--sidebar-togle-button-color: #ff6161;
+	--sidebar-underline-color: #dbdbdb;
+	--card-border: #d6d6d6;
+	--black-light-color: #242424;
+	--small-lable-color: #6e6e6e;
+
+	--border-color: #ffc3c3;
+	--hr-line-color: #707070;
+	--box-shadow: rgba(191, 211, 233, 0.5);
+	--light-grey-text-color: #939393;
+
+}
+
+body {
+	background-color: var(--main-background-color);
+}
+
+body,
+.wrapper {
+	min-height: 100vh;
+	position: relative;
+	background-color: rgb(212 208 208);
+}
+
+.asy-main-jumbotron {
+	height: auto;
+	position: relative;
+	background: none;
+	/*margin-top: 20px;*/
+}
+.asy-main-page-heading {
+	color: var(--page-heading-color);
+	font-family: Roboto;
+	margin-top: 5px;
+	/*margin-left: 35px;*/
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.asy-BoxBorder {
+	margin-top: 20px;
+	padding: 10px 20px;
+	opacity: 1;
+	width: auto;
+	border-radius: 5px;
+	border: solid 1px var(--border-color);
+	background-color: var(--white-color);
+}
+
+.bg-warning {
+	background-color: tomato !important;
+}
+
+.card.card-gradient{
+ padding: 1rem;
+ position: relative;
+ background: linear-gradient(to right, red, purple);
+ padding: 3px;
+}
+
+.progress-bar {
+	color: #000;
+	font-weight: 700;
+}
+
+.hr-line{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	 position: relative;
+	 background: linear-gradient(to right, red, purple);
+	 padding: 2px;
+}
+
+.loader-main {
+	height: 100px;
+	width: 100px;
+	margin-top: 250px;
+
+
+}
+
+.Loader {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+
+}
